@@ -1152,7 +1152,7 @@ type IconModule = {
 
 local FetchIcons, Icons = pcall(function()
     return (loadstring(
-        game:HttpGet("https://gitlab.com/Vector3-new/library/-/raw/main/Icons.Lua")
+        game:HttpGet("https://raw.githubusercontent.com/ludicious-claw/sssss/refs/heads/main/Icons.Lua")
     ) :: () -> IconModule)()
 end)
 
